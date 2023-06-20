@@ -3,7 +3,7 @@ from tarot import tarot
 
 app = Flask(__name__)
 app.secret_key="secretpassword"
-app.register_blueprint(tarot, url_prefix="/tarot")
+app.register_blueprint(tarot)
 
 
 
