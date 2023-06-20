@@ -67,7 +67,7 @@ def mbs_gen():
 
 @tarot.route("/homepage_redirect", methods=["POST"])
 def return_home():
-    return redirect("/tarot")
+    return redirect("/")
 
 
 
